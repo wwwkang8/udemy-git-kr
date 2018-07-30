@@ -18,4 +18,6 @@ ex) $git fetch origin
 4)  $git pull [alias][branch] : 원격 저장소에 있는 내용을 로컬로 받고 자동으로 working directory에
 반영이 된다. fetch도 로컬로 받지만 working directory에는 반영하지 않는다.
 
+5) $git push [alias][branch] : 로컬 저장소의 내용을 원격저장소로 업로드
+
 
