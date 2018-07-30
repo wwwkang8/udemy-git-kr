@@ -18,6 +18,11 @@ ex) $git fetch origin
 4)  $git pull [alias][branch] : 원격 저장소에 있는 내용을 로컬로 받고 자동으로 working directory에
 반영이 된다. fetch도 로컬로 받지만 working directory에는 반영하지 않는다.
 
-5) $git push [alias][branch] : 로컬 저장소의 내용을 원격저장소로 업로드
+5) $git push [alias][branch] : 로컬 저장소의 내용을 원격저장소로 업로드하는 것을 PUSH라고 한다.
+ex) $ git push -u origin master : origin이라는 별칭을 가진 원격저장소에 master 브랜치에 푸쉬를 한다.
+
+6) $git clone [url] : 공개된 원격 저장소를 다운로드 하는 명령. 권한이 없어도 다른 소스 저장소를 다운로드
+하여 내 로컬에 저장할 수 있다.
+
 
 
