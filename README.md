@@ -15,7 +15,6 @@ Update git command and practice
  - <<<<<<Head :  현재 브랜치에 포함된 내용
  - >>>>>[브랜치명] : 다른 브랜치에 포함된 내용
  
- 0) $git diff
 
 1) 마크다운 문법 : HTML 형식의 문서를 쉽게 작성하기 위한 문법이다
 
@@ -53,6 +52,11 @@ ex) $ git push -u origin master : origin이라는 별칭을 가진 원격저장�
    7. Push : 로컬 저장소의 작업 브랜치를 원격 저장소로 업로드
    8. Pull Request : 변경사항을 원작자에게 원본 소스에 반영 요청 송신
 
-
+8) pull request 방법 : 
+   - 다른 사람의 리포지토리에서 fork를 한다.
+   - 클론을 하여 내 로컬에 프로젝트를 받는다
+   - 프로젝트를 변경하고 내 브랜치(develop)에 푸쉬한다.
+   - 깃헙 사이트에 가서 내가 푸쉬한 것에 대해 pull request를 원작자에게 보낸다.
+   - 수정된 코드에 대해 원작자가 "merge"를 해준다.
 
 
