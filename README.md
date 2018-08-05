@@ -14,6 +14,8 @@ Update git command and practice
  충돌 발생시
  - <<<<<<Head :  현재 브랜치에 포함된 내용
  - >>>>>[브랜치명] : 다른 브랜치에 포함된 내용
+ 
+ 0) $git diff
 
 1) 마크다운 문법 : HTML 형식의 문서를 쉽게 작성하기 위한 문법이다
 
